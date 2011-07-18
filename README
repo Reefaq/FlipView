@@ -1,0 +1,12 @@
+FlipView Like FlipBoard
+================================================
+
+Flipboard came with their awesome Magazine Style Layout and rendering of Views which leads to get inspire us and after a long thought & discussions we came up with simple idea of arranging Layout/View in a way which is quite a look like functionality of FlipBoard.
+
+We implemented feature like:
+
+- Random layout selection*
+- Arranging view while changing orientation
+- Page Flip 
+- FullScreen View when Click
+
