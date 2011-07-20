@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -265,19 +267,13 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
-								<string>187BB7DA13D479B700F315C2</string>
-								<string>1873AC5613D1753F001A999B</string>
-								<string>1873AB7013D1723E001A999B</string>
-								<string>1873AB0113D16F96001A999B</string>
-								<string>1873AAF813D16F29001A999B</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
+								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
-									<integer>4</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -313,14 +309,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MessageModel.h</string>
+								<string>FlipView_Prefix.pch</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -328,16 +322,14 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MessageModel.h</string>
+										<string>FlipView_Prefix.pch</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>187BB7F413D47D8C00F315C2</string>
+										<string>188461B013D6DF8F006914DE</string>
 										<key>history</key>
 										<array>
 											<string>180E01AF13D1B2BB005DF14C</string>
-											<string>18D4614913D46F2A00BB814D</string>
-											<string>187BB71E13D474BB00F315C2</string>
 											<string>187BB71F13D474BB00F315C2</string>
 											<string>187BB72A13D474BB00F315C2</string>
 											<string>187BB72B13D474BB00F315C2</string>
@@ -351,8 +343,6 @@
 											<string>187BB73313D474BB00F315C2</string>
 											<string>187BB73513D474BB00F315C2</string>
 											<string>187BB73613D474BB00F315C2</string>
-											<string>187BB73913D474BB00F315C2</string>
-											<string>187BB73A13D474BB00F315C2</string>
 											<string>187BB76B13D4756C00F315C2</string>
 											<string>187BB76D13D4756C00F315C2</string>
 											<string>187BB76F13D4759100F315C2</string>
@@ -364,9 +354,6 @@
 											<string>187BB7C313D4796900F315C2</string>
 											<string>187BB7C413D4796900F315C2</string>
 											<string>187BB7DB13D479BD00F315C2</string>
-											<string>187BB7DC13D479BD00F315C2</string>
-											<string>187BB7E513D47D6F00F315C2</string>
-											<string>187BB7E613D47D6F00F315C2</string>
 											<string>187BB7E713D47D6F00F315C2</string>
 											<string>187BB7E813D47D6F00F315C2</string>
 											<string>187BB7E913D47D6F00F315C2</string>
@@ -377,8 +364,15 @@
 											<string>187BB7EE13D47D6F00F315C2</string>
 											<string>187BB7EF13D47D6F00F315C2</string>
 											<string>187BB7F013D47D6F00F315C2</string>
-											<string>187BB7F113D47D6F00F315C2</string>
-											<string>187BB7F213D47D6F00F315C2</string>
+											<string>1884618513D6DDD3006914DE</string>
+											<string>1884618613D6DDD3006914DE</string>
+											<string>1884618713D6DDD3006914DE</string>
+											<string>1884618B13D6DDD3006914DE</string>
+											<string>1884618C13D6DDD3006914DE</string>
+											<string>1884619313D6DF66006914DE</string>
+											<string>1884619413D6DF66006914DE</string>
+											<string>1884619513D6DF66006914DE</string>
+											<string>1884619613D6DF66006914DE</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -390,14 +384,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1468, 721}}</string>
+								<string>{{0, 0}, {1468, 706}}</string>
 								<key>RubberWindowFrame</key>
 								<string>4 55 1676 973 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>721pt</string>
+							<string>706pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -410,14 +404,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 726}, {1468, 206}}</string>
+								<string>{{0, 711}, {1468, 221}}</string>
 								<key>RubberWindowFrame</key>
 								<string>4 55 1676 973 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>206pt</string>
+							<string>221pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -436,9 +430,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>187BB6DD13D46FEE00F315C2</string>
+				<string>188461A413D6DF7B006914DE</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>187BB6DE13D46FEE00F315C2</string>
+				<string>188461A513D6DF7B006914DE</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -578,9 +572,8 @@
 	<array>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>1873AB0713D17008001A999B</string>
-		<string>/Users/Apple/Desktop/REEFAQ/learn/FlipViewProject/FlipViewProject.xcodeproj</string>
+		<string>/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/FlipView.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>4 55 1676 973 0 0 1680 1028 </string>
@@ -604,7 +597,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>WallViewController.m</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -621,8 +614,6 @@
 							<string>298pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -662,7 +653,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1873AB0713D17008001A999B</string>
-				<string>187BB6CB13D46F9600F315C2</string>
+				<string>188461A613D6DF7B006914DE</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -784,13 +775,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>187BB6DF13D46FEE00F315C2</string>
+				<string>188461A713D6DF7B006914DE</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>187BB6E013D46FEE00F315C2</string>
-				<string>187BB6E113D46FEE00F315C2</string>
-				<string>187BB6E213D46FEE00F315C2</string>
-				<string>187BB6E313D46FEE00F315C2</string>
-				<string>187BB6E413D46FEE00F315C2</string>
+				<string>188461A813D6DF7B006914DE</string>
+				<string>188461A913D6DF7B006914DE</string>
+				<string>188461AA13D6DF7B006914DE</string>
+				<string>188461AB13D6DF7B006914DE</string>
+				<string>188461AC13D6DF7B006914DE</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -817,14 +808,12 @@
 							<key>Dock</key>
 							<array>
 								<dict>
-									<key>BecomeActive</key>
-									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
 										<string>1CDD528C0622207200134675</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>AFKPageFlipper.m</string>
+										<string></string>
 										<key>StatusBarVisibility</key>
 										<true/>
 									</dict>
@@ -845,6 +834,8 @@
 							<string>212pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -880,8 +871,8 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D57069F1CE1000CFCEE</string>
-				<string>187BB6D513D46FE900F315C2</string>
-				<string>187BB6D613D46FE900F315C2</string>
+				<string>1884617613D6DD20006914DE</string>
+				<string>1884617713D6DD20006914DE</string>
 				<string>1CDD528C0622207200134675</string>
 				<string>1CD0528E0623707200166675</string>
 			</array>
@@ -909,8 +900,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -946,7 +935,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>187BB6E513D46FEE00F315C2</string>
+				<string>188461AD13D6DF7B006914DE</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

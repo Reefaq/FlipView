@@ -1,6 +1,6 @@
 //
 //  TitleAndTextView.m
-//  FlipViewProject
+//  FlipView
 //
 //  Created by Reefaq Mohammed on 16/07/11.
 //  Copyright 2010 raw eng. All rights reserved.
@@ -92,7 +92,7 @@
 }
 
 -(void)tapped:(UITapGestureRecognizer *)recognizer {
-	[[FlipViewProjectAppDelegate instance] showViewInFullScreen:self withModel:self.messageModel];
+	[[FlipViewAppDelegate instance] showViewInFullScreen:self withModel:self.messageModel];
 }
 
 

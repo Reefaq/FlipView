@@ -1,6 +1,6 @@
 //
-//  FlipViewProjectAppDelegate.h
-//  FlipViewProject
+//  FlipViewAppDelegate.h
+//  FlipView
 //
 //  Created by Reefaq Mohammed on 16/07/11.
 //  Copyright 2010 raw eng. All rights reserved.
@@ -12,12 +12,12 @@
 @class UIViewExtention;
 @class MessageModel;
 
-@interface FlipViewProjectAppDelegate : NSObject <UIApplicationDelegate> {
+@interface FlipViewAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
     WallViewController *viewController;
 }
 
-+ (FlipViewProjectAppDelegate *) instance;
++ (FlipViewAppDelegate *) instance;
 -(void)showViewInFullScreen:(UIViewExtention*)viewToShow withModel:(MessageModel*)model;
 -(void)closeFullScreen;
 

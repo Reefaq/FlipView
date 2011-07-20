@@ -1,6 +1,6 @@
 //
 //  FullScreenView.m
-//  FlipViewProject
+//  FlipView
 //
 //  Created by Reefaq Mohammed on 16/07/11.
 //  Copyright 2010 raw eng. All rights reserved.
@@ -125,7 +125,7 @@
    if ([animationID isEqualToString:@"CLOSEFULLSCREEN"]) {
 	   self.alpha = 0;
 	   [self removeFromSuperview];
-	   [[FlipViewProjectAppDelegate instance] closeFullScreen];
+	   [[FlipViewAppDelegate instance] closeFullScreen];
    }
 }
 

@@ -1,6 +1,6 @@
 //
 //  Layout1.h
-//  FlipViewProject
+//  FlipView
 //
 //  Created by Reefaq Mohammed on 16/07/11.
 //  Copyright 2010 raw eng. All rights reserved.

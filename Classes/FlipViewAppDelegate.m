@@ -1,22 +1,22 @@
 //
-//  FlipViewProjectAppDelegate.m
-//  FlipViewProject
+//  FlipViewAppDelegate.m
+//  FlipView
 //
 //  Created by Reefaq Mohammed on 16/07/11.
 //  Copyright 2010 raw eng. All rights reserved.
 //
 
-#import "FlipViewProjectAppDelegate.h"
+#import "FlipViewAppDelegate.h"
 #import "WallViewController.h"
 
-@implementation FlipViewProjectAppDelegate
+@implementation FlipViewAppDelegate
 
 @synthesize window;
 @synthesize viewController;
 
 
-+ (FlipViewProjectAppDelegate *) instance {
-	return (FlipViewProjectAppDelegate *) [[UIApplication sharedApplication] delegate];
++ (FlipViewAppDelegate *) instance {
+	return (FlipViewAppDelegate *) [[UIApplication sharedApplication] delegate];
 }
 
 #pragma mark -
