@@ -1,0 +1,20 @@
+FlipView Like FlipBoard
+============================================================
+
+If you have used the Flipboard app on iPhone you would agree the magazine style layouts and flipping of pages is awesome. So, [we][] got inspired with this and created our own flip view application.
+
+Note: this project is only for iPad.
+
+Features currently implemented:
+
+- Random layout selection
+
+- Arranging view while changing orientation
+
+- Page flip
+
+- Fullscreen view
+
+
+[we]:http://www.raweng.com
+[raw engineering]:http://www.raweng.com
