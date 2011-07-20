@@ -107,7 +107,7 @@
 						<int key="objectID">6</int>
 						<reference key="object" ref="250404236"/>
 						<reference key="parent" ref="0"/>
-						<string key="objectName">FlipViewProject App Delegate</string>
+						<string key="objectName">FlipView App Delegate</string>
 					</object>
 				</object>
 			</object>
@@ -128,7 +128,7 @@
 					<string>UIResponder</string>
 					<string>{{200, 0}, {783, 1006}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>FlipViewProjectAppDelegate</string>
+					<string>FlipViewAppDelegate</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				</object>
 			</object>
@@ -154,7 +154,7 @@
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<object class="IBPartialClassDescription">
-					<string key="className">FlipViewProjectAppDelegate</string>
+					<string key="className">FlipViewAppDelegate</string>
 					<string key="superclassName">NSObject</string>
 					<object class="NSMutableDictionary" key="outlets">
 						<string key="NS.key.0">window</string>
@@ -169,7 +169,7 @@
 					</object>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">Classes/FlipViewProjectAppDelegate.h</string>
+						<string key="minorKey">Classes/FlipViewAppDelegate.h</string>
 					</object>
 				</object>
 			</object>
@@ -388,7 +388,7 @@
 			<integer value="3100" key="NS.object.0"/>
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
-		<string key="IBDocument.LastKnownRelativeProjectPath">FlipViewProject.xcodeproj</string>
+		<string key="IBDocument.LastKnownRelativeProjectPath">FlipView.xcodeproj</string>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<string key="IBCocoaTouchPluginVersion">132</string>
 	</data>
