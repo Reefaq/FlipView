@@ -57,6 +57,10 @@ typedef enum {
 	BOOL animating;
 	
 	BOOL disabled;
+	
+	UIImage *flipIllusionPortrait;
+	UIImage *flipIllusionLandscape;
+
 }
 
 @property (nonatomic,retain) NSObject <AFKPageFlipperDataSource> *dataSource;

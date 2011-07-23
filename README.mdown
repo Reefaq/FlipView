@@ -13,8 +13,24 @@ Features currently implemented:
 
 - Page flip
 
+- Multi-page flip
+
 - Fullscreen view
+
+[![](http://www.raweng.com/wp-content/uploads/2011/07/new-photo-2.png)](http://www.raweng.com/wp-content/uploads/2011/07/new-photo-2.png)
+[![](http://www.raweng.com/wp-content/uploads/2011/07/new-photo-3.png)](http://www.raweng.com/wp-content/uploads/2011/07/new-photo-3.png) 
+[![](http://www.raweng.com/wp-content/uploads/2011/07/new-photo-5.png)](http://www.raweng.com/wp-content/uploads/2011/07/new-photo-5.png)
+[![](http://www.raweng.com/wp-content/uploads/2011/07/new-photo-6.png)](http://www.raweng.com/wp-content/uploads/2011/07/new-photo-6.png)
+[![](http://www.raweng.com/wp-content/uploads/2011/07/new-photo-7.png)](http://www.raweng.com/wp-content/uploads/2011/07/new-photo-7.png)
+
+Help
+=========
+
+Please submit your questions to the blog link provided below:
+
+* [raw engineering blog][]
 
 
 [we]:http://www.raweng.com
 [raw engineering]:http://www.raweng.com
+[raw engineering blog]:http://www.raweng.com/blog/flipview/

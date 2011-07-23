@@ -59,8 +59,7 @@
 @synthesize pageDifference,numberOfPages;
 
 - (void) initFlip {
-	
-	NSAutoreleasePool* newPool = [[NSAutoreleasePool alloc] init];
+	NSAutoreleasePool* newpool = [[NSAutoreleasePool alloc] init];
 	// Create screenshots of view
 	UIImage *currentImage = [self.currentView imageByRenderingView];
 	UIImage *newImage = [self.newView imageByRenderingView];
@@ -214,18 +213,18 @@
 	frontLayer.transform = CATransform3DMakeRotation(M_PI, 0, 1.0, 0);
 	[flipAnimationLayer addSublayer:frontLayer];
 	
+	UIInterfaceOrientation orient = [UIApplication sharedApplication].statusBarOrientation;
+	
+	UIImage* flipImage;
+	
+	if (orient == UIInterfaceOrientationPortrait || orient == UIInterfaceOrientationPortraitUpsideDown) {
+		flipImage = flipIllusionPortrait;
+	}else if (orient == UIInterfaceOrientationLandscapeLeft || orient == UIInterfaceOrientationLandscapeRight) {
+		flipImage = flipIllusionLandscape;
+	}
+	
+	
 	if (flipDirection == AFKPageFlipperDirectionRight) {
-		
-		UIInterfaceOrientation orient = [UIApplication sharedApplication].statusBarOrientation;
-		
-		NSString* flipImage = [NSString stringWithString:@"flip-illusion-oriented.jpg"];
-		
-		if (orient == UIInterfaceOrientationPortrait || orient == UIInterfaceOrientationPortraitUpsideDown) {
-			flipImage = [NSString stringWithString:@"flip-illusion-oriented.jpg"];
-		}else if (orient == UIInterfaceOrientationLandscapeLeft || orient == UIInterfaceOrientationLandscapeRight) {
-			flipImage = [NSString stringWithString:@"flip-illusion.png"];
-		}
-		
 		
 		backLayer.contents = (id) [currentImage CGImage];
 		backLayer.contentsGravity = kCAGravityLeft;
@@ -242,12 +241,8 @@
 		if (pageDifference > 1) {
 			
 			//start forlayer left
-			UIView* blankViewBLeft = [[UIView alloc] initWithFrame:blankFlipAnimationLayerOnLeft1.bounds];
-			[blankViewBLeft setBackgroundColor:RGBACOLOR(252,252,252,1)];
-			UIImage* blankImgBLeft =  [blankViewBLeft imageByRenderingView];
-			blankImgBLeft = [UIImage imageNamed:flipImage];
+			UIImage* blankImgBLeft = flipImage;
 			blankBackLayerForLayerLeft.contents = (id) [blankImgBLeft CGImage];
-			[blankViewBLeft release];
 			blankBackLayerForLayerLeft.contentsGravity = kCAGravityLeft;
 			
 			UIView* blankViewFLeft = [[UIView alloc] initWithFrame:blankFlipAnimationLayerOnLeft1.bounds];
@@ -265,13 +260,9 @@
 			[blankViewBRight release];
 			blankBackLayerForLayerRight.contentsGravity = kCAGravityLeft;
 			
-			UIView* blankViewFRight = [[UIView alloc] initWithFrame:blankFlipAnimationLayerOnRight1.bounds];
-			[blankViewFRight setBackgroundColor:RGBACOLOR(252,252,252,1)];
-			UIImage* blankImgFRight =  [blankViewFRight imageByRenderingView];
-			blankImgFRight = [UIImage imageNamed:flipImage];
+			UIImage* blankImgFRight = flipImage;
 			frontLayer.contents = (id) [blankImgFRight CGImage];
 			blankFrontLayerForLayerRight.contents = (id) [newImage CGImage];
-			[blankViewFRight release];
 			blankFrontLayerForLayerRight.contentsGravity = kCAGravityRight;
 			
 			
@@ -289,12 +280,8 @@
 		if (pageDifference > 2) {
 			
 			//start forlayer left
-			UIView* blankViewBLeft = [[UIView alloc] initWithFrame:blankFlipAnimationLayerOnLeft1.bounds];
-			[blankViewBLeft setBackgroundColor:RGBACOLOR(252,252,252,1)];
-			UIImage* blankImgBLeft =  [blankViewBLeft imageByRenderingView];
-			blankImgBLeft = [UIImage imageNamed:flipImage];
+			UIImage* blankImgBLeft = flipImage;
 			blankBackLayerForLayerLeft.contents = (id) [blankImgBLeft CGImage];
-			[blankViewBLeft release];
 			blankBackLayerForLayerLeft.contentsGravity = kCAGravityLeft;
 			
 			UIView* blankViewFLeft = [[UIView alloc] initWithFrame:blankFlipAnimationLayerOnLeft1.bounds];
@@ -312,12 +299,8 @@
 			[blankViewBRight release];
 			blankBackLayerForLayerRight.contentsGravity = kCAGravityLeft;
 			
-			UIView* blankViewFRight = [[UIView alloc] initWithFrame:blankFlipAnimationLayerOnRight1.bounds];
-			[blankViewFRight setBackgroundColor:RGBACOLOR(252,252,252,1)];
-			UIImage* blankImgFRight =  [blankViewFRight imageByRenderingView];
-			blankImgFRight = [UIImage imageNamed:flipImage];
+			UIImage* blankImgFRight = flipImage;
 			blankFrontLayerForLayerRight.contents = (id) [blankImgFRight CGImage];
-			[blankViewFRight release];
 			blankFrontLayerForLayerRight.contentsGravity = kCAGravityRight;
 			
 			
@@ -331,12 +314,8 @@
 			//end	
 			
 			//start forlayer left2
-			UIView* blankViewBLeft2 = [[UIView alloc] initWithFrame:blankFlipAnimationLayerOnLeft2.bounds];
-			[blankViewBLeft2 setBackgroundColor:RGBACOLOR(252, 252, 252, 1)];
-			UIImage* blankImgBLeft2 =  [blankViewBLeft2 imageByRenderingView];
-			blankImgBLeft2 = [UIImage imageNamed:flipImage];
+			UIImage* blankImgBLeft2 = flipImage;
 			blankBackLayerForLayerLeft2.contents = (id) [blankImgBLeft2 CGImage];
-			[blankViewBLeft2 release];
 			blankBackLayerForLayerLeft2.contentsGravity = kCAGravityLeft;
 			
 			UIView* blankViewFLeft2 = [[UIView alloc] initWithFrame:blankFlipAnimationLayerOnLeft2.bounds];
@@ -354,13 +333,9 @@
 			[blankViewBRight2 release];
 			blankBackLayerForLayerRight2.contentsGravity = kCAGravityLeft;
 			
-			UIView* blankViewFRight2 = [[UIView alloc] initWithFrame:blankFlipAnimationLayerOnRight2.bounds];
-			[blankViewFRight2 setBackgroundColor:RGBACOLOR(252, 252, 252, 1)];
-			UIImage* blankImgFRight2 =  [blankViewFRight2 imageByRenderingView];
-			blankImgFRight2 = [UIImage imageNamed:flipImage];
+			UIImage* blankImgFRight2 = flipImage;
 			blankFrontLayerForLayerRight2.contents = (id) [newImage CGImage];
 			frontLayer.contents = (id) [blankImgFRight2 CGImage];
-			[blankViewFRight2 release];
 			blankFrontLayerForLayerRight2.contentsGravity = kCAGravityRight;
 			
 			
@@ -378,17 +353,6 @@
 		currentAngle = startFlipAngle = 0;
 		endFlipAngle = -M_PI;
 	} else {
-		
-		UIInterfaceOrientation orient = [UIApplication sharedApplication].statusBarOrientation;
-		
-		NSString* flipImage = [NSString stringWithString:@"flip-illusion-oriented.jpg"];
-		
-		if (orient == UIInterfaceOrientationPortrait || orient == UIInterfaceOrientationPortraitUpsideDown) {
-			flipImage = [NSString stringWithString:@"flip-illusion-oriented.jpg"];
-		}else if (orient == UIInterfaceOrientationLandscapeLeft || orient == UIInterfaceOrientationLandscapeRight) {
-			flipImage = [NSString stringWithString:@"flip-illusion.png"];
-		}
-		
 		
 		backLayer.contentsGravity = kCAGravityLeft;
 		backLayer.contents = (id) [newImage CGImage];
@@ -411,22 +375,14 @@
 			[blankViewBLeft release];
 			blankBackLayerForLayerLeft.contentsGravity = kCAGravityLeft;
 			
-			UIView* blankViewFLeft = [[UIView alloc] initWithFrame:blankFlipAnimationLayerOnLeft1.frame];
-			[blankViewFLeft setBackgroundColor:RGBACOLOR(252,252,252,1)];
-			UIImage* blankImgFLeft =  [blankViewFLeft imageByRenderingView];
-			blankImgFLeft = [UIImage imageNamed:flipImage];
+			UIImage* blankImgFLeft = flipImage;
 			blankFrontLayerForLayerLeft.contents = (id) [blankImgFLeft CGImage];
-			[blankViewFLeft release];
 			blankFrontLayerForLayerLeft.contentsGravity = kCAGravityRight;
 			
 			//start forlayer right
-			UIView* blankViewBRight = [[UIView alloc] initWithFrame:blankFlipAnimationLayerOnRight1.frame];
-			[blankViewBRight setBackgroundColor:RGBACOLOR(252,252,252,1)];
-			UIImage* blankImgBRight =  [blankViewBRight imageByRenderingView];
-			blankImgBRight = [UIImage imageNamed:flipImage];
+			UIImage* blankImgBRight = flipImage;
 			blankBackLayerForLayerRight.contents = (id) [newImage CGImage];
 			backLayer.contents = (id) [blankImgBRight CGImage];
-			[blankViewBRight release];
 			blankBackLayerForLayerRight.contentsGravity = kCAGravityLeft;
 			
 			UIView* blankViewFRight = [[UIView alloc] initWithFrame:blankFlipAnimationLayerOnRight1.frame];
@@ -456,21 +412,13 @@
 			[blankViewBLeft release];
 			blankBackLayerForLayerLeft.contentsGravity = kCAGravityLeft;
 			
-			UIView* blankViewFLeft = [[UIView alloc] initWithFrame:blankFlipAnimationLayerOnLeft1.frame];
-			[blankViewFLeft setBackgroundColor:RGBACOLOR(252,252,252,1)];
-			UIImage* blankImgFLeft =  [blankViewFLeft imageByRenderingView];
-			blankImgFLeft = [UIImage imageNamed:flipImage];
+			UIImage* blankImgFLeft = flipImage;
 			blankFrontLayerForLayerLeft.contents = (id) [blankImgFLeft CGImage];
-			[blankViewFLeft release];
 			blankFrontLayerForLayerLeft.contentsGravity = kCAGravityRight;
 			
 			//start forlayer right
-			UIView* blankViewBRight = [[UIView alloc] initWithFrame:blankFlipAnimationLayerOnRight1.frame];
-			[blankViewBRight setBackgroundColor:RGBACOLOR(252,252,252,1)];
-			UIImage* blankImgBRight =  [blankViewBRight imageByRenderingView];
-			blankImgBRight = [UIImage imageNamed:flipImage];
+			UIImage* blankImgBRight = flipImage;
 			blankBackLayerForLayerRight.contents = (id) [blankImgBRight CGImage];
-			[blankViewBRight release];
 			blankBackLayerForLayerRight.contentsGravity = kCAGravityLeft;
 			
 			UIView* blankViewFRight = [[UIView alloc] initWithFrame:blankFlipAnimationLayerOnRight1.frame];
@@ -496,22 +444,14 @@
 			[blankViewBLeft2 release];
 			blankBackLayerForLayerLeft2.contentsGravity = kCAGravityLeft;
 			
-			UIView* blankViewFLeft2 = [[UIView alloc] initWithFrame:blankFlipAnimationLayerOnLeft2.frame];
-			[blankViewFLeft2 setBackgroundColor:RGBACOLOR(252,252,252,1)];
-			UIImage* blankImgFLeft2 =  [blankViewFLeft2 imageByRenderingView];
-			blankImgFLeft2 = [UIImage imageNamed:flipImage];
+			UIImage* blankImgFLeft2 = flipImage;
 			blankFrontLayerForLayerLeft2.contents = (id) [blankImgFLeft2 CGImage];
-			[blankViewFLeft2 release];
 			blankFrontLayerForLayerLeft2.contentsGravity = kCAGravityRight;
 			
 			//start forlayer right2
-			UIView* blankViewBRight2 = [[UIView alloc] initWithFrame:blankFlipAnimationLayerOnRight2.frame];
-			[blankViewBRight2 setBackgroundColor:RGBACOLOR(252,252,252,1)];
-			UIImage* blankImgBRight2 =  [blankViewBRight2 imageByRenderingView];
-			blankImgBRight2 = [UIImage imageNamed:flipImage];
+			UIImage* blankImgBRight2 = flipImage;
 			blankBackLayerForLayerRight2.contents = (id) [newImage CGImage];
 			backLayer.contents = (id) [blankImgBRight2 CGImage];
-			[blankViewBRight2 release];
 			blankBackLayerForLayerRight2.contentsGravity = kCAGravityLeft;
 			
 			UIView* blankViewFRight2 = [[UIView alloc] initWithFrame:blankFlipAnimationLayerOnRight2.frame];
@@ -533,7 +473,8 @@
 		currentAngle = startFlipAngle = -M_PI ;
 		endFlipAngle = 0;
 	}
-	[newPool release];
+	
+	[newpool release];
 }
 
 
@@ -975,6 +916,9 @@
 		[panRecognizer setMaximumNumberOfTouches:1];
 		[self addGestureRecognizer:panRecognizer];
 		[panRecognizer release];
+		
+		flipIllusionPortrait = [UIImage imageNamed:@"flip-illusion-oriented.jpg"];
+		flipIllusionLandscape = [UIImage imageNamed:@"flip-illusion.png"];
 		
     }
     return self;
