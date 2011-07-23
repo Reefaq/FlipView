@@ -13,6 +13,8 @@ Features currently implemented:
 
 - Page flip
 
+- Multi-page flip
+
 - Fullscreen view
 
 [![](http://www.raweng.com/wp-content/uploads/2011/07/new-photo-2.png)](http://www.raweng.com/wp-content/uploads/2011/07/new-photo-2.png)
