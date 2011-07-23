@@ -1,0 +1,909 @@
+TFlipView
+v7
+r0
+t333125588.416585
+cCheck dependencies
+cProcessInfoPlistFile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/Info.plist FlipView-Info.plist
+cCompileXIB /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/FlipView.app/flip-illusion-oriented.jpg flip-illusion-oriented.jpg
+cCpResource build/Debug-iphonesimulator/FlipView.app/flip-illusion.png flip-illusion.png
+cCpResource build/Debug-iphonesimulator/FlipView.app/unselected-page.png unselected-page.png
+cCpResource build/Debug-iphonesimulator/FlipView.app/selected-page.png selected-page.png
+cCpResource build/Debug-iphonesimulator/FlipView.app/missing-people.png missing-people.png
+cCpResource build/Debug-iphonesimulator/FlipView.app/close-popup.png close-popup.png
+cProcessPCH /var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch.gch FlipView_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/main.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/FlipViewAppDelegate.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FlipViewAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/AFKPageFlipper.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/AFKPageFlipper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/FullScreenView.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FullScreenView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/TitleAndTextView.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/TitleAndTextView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/UIViewExtention.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/UIViewExtention.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/HeaderView.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/HeaderView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/FooterView.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FooterView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/LayoutViewExtention.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/LayoutViewExtention.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout5.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout5.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout6.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout6.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout7.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout7.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout8.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout8.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout4.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout4.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout3.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout3.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout2.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout2.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout1.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout1.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/MessageModel.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/MessageModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/WallViewController.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/WallViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/FlipView normal i386
+cGenerateDSYMFile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app.dSYM /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/FlipView
+cTouch /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/AFKPageFlipper.h
+c000000004E2A8039000000000000069C
+t1311408185
+s1692
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/AFKPageFlipper.m
+c000000004E2A8484000000000000713F
+t1311409284
+s28991
+i"AFKPageFlipper.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/ColorHelper.h
+c000000004E26A5A400000000000002ED
+t1311155620
+s749
+i<UIKit/UIKit.h>
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FlipViewAppDelegate.h
+c000000004E26A5A4000000000000028D
+t1311155620
+s653
+i<UIKit/UIKit.h>
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FlipViewAppDelegate.m
+c000000004E26A62C0000000000000953
+t1311155756
+s2387
+i"FlipViewAppDelegate.h"
+i"WallViewController.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FooterView.h
+c000000004E26A5A40000000000000399
+t1311155620
+s921
+i<Foundation/Foundation.h>
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FooterView.m
+c000000004E26A5A40000000000002B26
+t1311155620
+s11046
+i"FooterView.h"
+i"AFKPageFlipper.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FullScreenView.h
+c000000004E26A5A40000000000000308
+t1311155620
+s776
+i<Foundation/Foundation.h>
+i"UIViewExtention.h"
+i"MessageModel.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FullScreenView.m
+c000000004E26A5A400000000000017AF
+t1311155620
+s6063
+i"FullScreenView.h"
+i"MessageModel.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/HeaderView.h
+c000000004E26A5A4000000000000021A
+t1311155620
+s538
+i<Foundation/Foundation.h>
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/HeaderView.m
+c000000004E26A5A40000000000000557
+t1311155620
+s1367
+i"HeaderView.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout1.h
+c000000004E26A5A4000000000000015F
+t1311155620
+s351
+i<Foundation/Foundation.h>
+i"LayoutViewExtention.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout1.m
+c000000004E26A5A40000000000000993
+t1311155620
+s2451
+i"Layout1.h"
+i"UIViewExtention.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout2.h
+c000000004E26A5A400000000000001AC
+t1311155620
+s428
+i<Foundation/Foundation.h>
+i"LayoutViewExtention.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout2.m
+c000000004E26A5A40000000000000C32
+t1311155620
+s3122
+i"Layout2.h"
+i"UIViewExtention.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout3.h
+c000000004E26A5A400000000000001FA
+t1311155620
+s506
+i<Foundation/Foundation.h>
+i"LayoutViewExtention.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout3.m
+c000000004E26A5A40000000000000F04
+t1311155620
+s3844
+i"Layout3.h"
+i"UIViewExtention.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout4.h
+c000000004E26A5A4000000000000024A
+t1311155620
+s586
+i<Foundation/Foundation.h>
+i"LayoutViewExtention.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout4.m
+c000000004E26A5A400000000000011B1
+t1311155620
+s4529
+i"Layout4.h"
+i"UIViewExtention.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout5.h
+c000000004E26A5A4000000000000029B
+t1311155620
+s667
+i<Foundation/Foundation.h>
+i"LayoutViewExtention.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout5.m
+c000000004E26A5A40000000000001493
+t1311155620
+s5267
+i"Layout5.h"
+i"UIViewExtention.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout6.h
+c000000004E26A5A40000000000000298
+t1311155620
+s664
+i<Foundation/Foundation.h>
+i"LayoutViewExtention.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout6.m
+c000000004E26A5A4000000000000147D
+t1311155620
+s5245
+i"Layout6.h"
+i"UIViewExtention.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout7.h
+c000000004E26A5A40000000000000299
+t1311155620
+s665
+i<Foundation/Foundation.h>
+i"LayoutViewExtention.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout7.m
+c000000004E26A5A4000000000000147F
+t1311155620
+s5247
+i"Layout7.h"
+i"UIViewExtention.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout8.h
+c000000004E26A5A40000000000000299
+t1311155620
+s665
+i<Foundation/Foundation.h>
+i"LayoutViewExtention.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout8.m
+c000000004E26A5A40000000000001478
+t1311155620
+s5240
+i"Layout8.h"
+i"UIViewExtention.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/LayoutViewExtention.h
+c000000004E26A5A4000000000000025F
+t1311155620
+s607
+i<Foundation/Foundation.h>
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/LayoutViewExtention.m
+c000000004E26A5A40000000000000282
+t1311155620
+s642
+i"LayoutViewExtention.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/License
+c000000004E244253000000000000059E
+t1310999123
+s1438
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/MessageModel.h
+c000000004E26A5A40000000000000274
+t1311155620
+s628
+i<Foundation/Foundation.h>
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/MessageModel.m
+c000000004E26A5A4000000000000035D
+t1311155620
+s861
+i"MessageModel.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/TitleAndTextView.h
+c000000004E26A5A40000000000000225
+t1311155620
+s549
+i<Foundation/Foundation.h>
+i"UIViewExtention.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/TitleAndTextView.m
+c000000004E26A5A40000000000000F81
+t1311155620
+s3969
+i"TitleAndTextView.h"
+i"MessageModel.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/UIViewExtention.h
+c000000004E26A5A400000000000002E8
+t1311155620
+s744
+i<Foundation/Foundation.h>
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/UIViewExtention.m
+c000000004E26A5A400000000000002C2
+t1311155620
+s706
+i"UIViewExtention.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/WallViewController.h
+c000000004E26A5A4000000000000037A
+t1311155620
+s890
+i<UIKit/UIKit.h>
+i"AFKPageFlipper.h"
+i"MessageModel.h"
+i"FullScreenView.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/WallViewController.m
+c000000004E26F4EC0000000000004C7D
+t1311175916
+s19581
+i"WallViewController.h"
+i"TitleAndTextView.h"
+i"Layout5.h"
+i"Layout6.h"
+i"Layout7.h"
+i"Layout8.h"
+i"Layout1.h"
+i"Layout2.h"
+i"Layout3.h"
+i"Layout4.h"
+i"UIViewExtention.h"
+i"AFKPageFlipper.h"
+i"FullScreenView.h"
+i"FooterView.h"
+i"HeaderView.h"
+i"MessageModel.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/FlipView_Prefix.pch
+c000000004E26A5A400000000000000F3
+t1311155620
+s243
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"ColorHelper.h"
+i"FlipViewAppDelegate.h"
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/MainWindow.xib
+c000000004E26A70400000000000045F0
+t1311155972
+s17904
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app
+t1311432788
+s408
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app.dSYM
+t1311432788
+s102
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/FlipView
+t1311432788
+s210992
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/Info.plist
+t1311432786
+s802
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/License
+t1311422899
+s1438
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/MainWindow.nib
+t1311432786
+s985
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/PkgInfo
+t1311432786
+s8
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/close-popup.png
+t1311432786
+s462
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/flip-illusion-oriented.jpg
+t1311432786
+s115405
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/flip-illusion.png
+t1311432786
+s7266
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/missing-people.png
+t1311432786
+s497
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/selected-page.png
+t1311432786
+s1587
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/unselected-page.png
+t1311432786
+s1015
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/AFKPageFlipper.o
+t1311432787
+s111856
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/FlipView.LinkFileList
+c000000004E2AE0520000000000000AAE
+t1311432786
+s2734
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/FlipViewAppDelegate.o
+t1311432787
+s55360
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/FooterView.o
+t1311432788
+s78884
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/FullScreenView.o
+t1311432787
+s67716
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/HeaderView.o
+t1311432787
+s43776
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout1.o
+t1311432788
+s47204
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout2.o
+t1311432788
+s50072
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout3.o
+t1311432788
+s52948
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout4.o
+t1311432788
+s55820
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout5.o
+t1311432788
+s58728
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout6.o
+t1311432788
+s58720
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout7.o
+t1311432788
+s58728
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout8.o
+t1311432788
+s58728
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/LayoutViewExtention.o
+t1311432787
+s39304
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/MessageModel.o
+t1311432788
+s14200
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/TitleAndTextView.o
+t1311432787
+s57864
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/UIViewExtention.o
+t1311432787
+s41880
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/WallViewController.o
+t1311432788
+s88760
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/main.o
+t1311432787
+s6328
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/close-popup.png
+c000000004DF8725700000000000001CE
+t1308127831
+s462
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/flip-illusion-oriented.jpg
+c000000004DDBC4E6000000000001C2CD
+t1306248422
+s115405
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/flip-illusion.png
+c000000004DDB962B0000000000001C62
+t1306236459
+s7266
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/main.m
+c000000004E26A5A40000000000000164
+t1311155620
+s356
+i<UIKit/UIKit.h>
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/missing-people.png
+c000000004DCB88F700000000000001F1
+t1305184503
+s497
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/selected-page.png
+c000000004DDF50A60000000000000633
+t1306480806
+s1587
+
+N/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/unselected-page.png
+c000000004DE7A35C00000000000003F7
+t1307026268
+s1015
+
+N/var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch.gch
+t1311432787
+s15473936
+
+NFlipView-Info.plist
+c000000004E2A7E4200000000000004AA
+t1311407682
+s1194
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies333125586#333125586#0(0"0(0#1#0"8603989920#0"0#
+
+CCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/AFKPageFlipper.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/AFKPageFlipper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333125587.589686
+e333125587.937804
+r1
+xCompileC
+xbuild/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/AFKPageFlipper.o
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/AFKPageFlipper.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/AFKPageFlipper.m333125587#333125587#0(0"0(0#0#76"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/AFKPageFlipper.m8605765152#2105"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-generated-files.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-own-target-headers.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-all-target-headers.hmap -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-project-headers.hmap -F/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/include -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources/i386 -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources -include /var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch -c /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/AFKPageFlipper.m -o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/AFKPageFlipper.o0#
+
+CCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/FlipViewAppDelegate.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FlipViewAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333125587.588926
+e333125587.689931
+r1
+xCompileC
+xbuild/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/FlipViewAppDelegate.o
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FlipViewAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FlipViewAppDelegate.m333125587#333125587#0(0"0(0#0#81"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FlipViewAppDelegate.m8606360448#2115"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-generated-files.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-own-target-headers.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-all-target-headers.hmap -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-project-headers.hmap -F/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/include -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources/i386 -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources -include /var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch -c /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FlipViewAppDelegate.m -o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/FlipViewAppDelegate.o0#
+
+CCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/FooterView.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FooterView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333125587.780499
+e333125588.068176
+r1
+xCompileC
+xbuild/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/FooterView.o
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FooterView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FooterView.m333125587#333125588#0(0"0(0#0#72"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FooterView.m8608903680#2097"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-generated-files.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-own-target-headers.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-all-target-headers.hmap -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-project-headers.hmap -F/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/include -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources/i386 -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources -include /var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch -c /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FooterView.m -o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/FooterView.o0#
+
+CCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/FullScreenView.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FullScreenView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333125587.590682
+e333125587.757339
+r1
+xCompileC
+xbuild/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/FullScreenView.o
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FullScreenView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FullScreenView.m333125587#333125587#0(0"0(0#0#76"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FullScreenView.m8604349312#2105"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-generated-files.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-own-target-headers.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-all-target-headers.hmap -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-project-headers.hmap -F/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/include -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources/i386 -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources -include /var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch -c /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/FullScreenView.m -o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/FullScreenView.o0#
+
+CCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/HeaderView.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/HeaderView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333125587.757473
+e333125587.874127
+r1
+xCompileC
+xbuild/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/HeaderView.o
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/HeaderView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/HeaderView.m333125587#333125587#0(0"0(0#0#72"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/HeaderView.m8607547584#2097"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-generated-files.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-own-target-headers.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-all-target-headers.hmap -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-project-headers.hmap -F/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/include -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources/i386 -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources -include /var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch -c /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/HeaderView.m -o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/HeaderView.o0#
+
+CCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout1.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout1.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333125588.175276
+e333125588.266719
+r1
+xCompileC
+xbuild/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout1.o
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout1.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout1.m333125588#333125588#0(0"0(0#0#69"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout1.m8602186464#2091"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-generated-files.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-own-target-headers.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-all-target-headers.hmap -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-project-headers.hmap -F/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/include -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources/i386 -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources -include /var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch -c /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout1.m -o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout1.o0#
+
+CCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout2.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout2.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333125588.069768
+e333125588.197104
+r1
+xCompileC
+xbuild/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout2.o
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout2.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout2.m333125588#333125588#0(0"0(0#0#69"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout2.m8600594016#2091"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-generated-files.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-own-target-headers.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-all-target-headers.hmap -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-project-headers.hmap -F/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/include -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources/i386 -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources -include /var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch -c /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout2.m -o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout2.o0#
+
+CCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout3.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout3.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333125588.068306
+e333125588.191291
+r1
+xCompileC
+xbuild/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout3.o
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout3.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout3.m333125588#333125588#0(0"0(0#0#69"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout3.m8602319712#2091"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-generated-files.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-own-target-headers.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-all-target-headers.hmap -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-project-headers.hmap -F/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/include -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources/i386 -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources -include /var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch -c /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout3.m -o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout3.o0#
+
+CCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout4.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout4.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333125588.041160
+e333125588.203466
+r1
+xCompileC
+xbuild/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout4.o
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout4.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout4.m333125588#333125588#0(0"0(0#0#69"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout4.m8603912320#2091"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-generated-files.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-own-target-headers.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-all-target-headers.hmap -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-project-headers.hmap -F/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/include -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources/i386 -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources -include /var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch -c /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout4.m -o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout4.o0#
+
+CCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout5.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout5.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333125587.874266
+e333125588.040822
+r1
+xCompileC
+xbuild/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout5.o
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout5.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout5.m333125587#333125588#0(0"0(0#0#69"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout5.m8608897376#2091"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-generated-files.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-own-target-headers.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-all-target-headers.hmap -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-project-headers.hmap -F/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/include -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources/i386 -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources -include /var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch -c /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout5.m -o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout5.o0#
+
+CCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout6.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout6.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333125587.889734
+e333125588.035914
+r1
+xCompileC
+xbuild/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout6.o
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout6.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout6.m333125587#333125588#0(0"0(0#0#69"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout6.m8606820544#2091"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-generated-files.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-own-target-headers.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-all-target-headers.hmap -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-project-headers.hmap -F/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/include -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources/i386 -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources -include /var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch -c /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout6.m -o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout6.o0#
+
+CCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout7.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout7.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333125587.937952
+e333125588.069650
+r1
+xCompileC
+xbuild/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout7.o
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout7.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout7.m333125587#333125588#0(0"0(0#0#69"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout7.m8606139744#2091"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-generated-files.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-own-target-headers.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-all-target-headers.hmap -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-project-headers.hmap -F/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/include -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources/i386 -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources -include /var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch -c /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout7.m -o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout7.o0#
+
+CCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout8.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout8.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333125588.036170
+e333125588.175017
+r1
+xCompileC
+xbuild/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout8.o
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout8.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout8.m333125588#333125588#0(0"0(0#0#69"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout8.m8603983008#2091"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-generated-files.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-own-target-headers.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-all-target-headers.hmap -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-project-headers.hmap -F/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/include -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources/i386 -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources -include /var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch -c /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/Layout8.m -o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/Layout8.o0#
+
+CCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/LayoutViewExtention.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/LayoutViewExtention.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333125587.793632
+e333125587.889598
+r1
+xCompileC
+xbuild/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/LayoutViewExtention.o
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/LayoutViewExtention.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/LayoutViewExtention.m333125587#333125587#0(0"0(0#0#81"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/LayoutViewExtention.m8607486304#2115"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-generated-files.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-own-target-headers.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-all-target-headers.hmap -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-project-headers.hmap -F/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/include -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources/i386 -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources -include /var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch -c /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/LayoutViewExtention.m -o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/LayoutViewExtention.o0#
+
+CCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/MessageModel.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/MessageModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333125588.191430
+e333125588.257142
+r1
+xCompileC
+xbuild/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/MessageModel.o
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/MessageModel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/MessageModel.m333125588#333125588#0(0"0(0#0#74"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/MessageModel.m8608904064#2101"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-generated-files.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-own-target-headers.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-all-target-headers.hmap -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-project-headers.hmap -F/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/include -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources/i386 -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources -include /var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch -c /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/MessageModel.m -o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/MessageModel.o0#
+
+CCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/TitleAndTextView.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/TitleAndTextView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333125587.643466
+e333125587.793484
+r1
+xCompileC
+xbuild/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/TitleAndTextView.o
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/TitleAndTextView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/TitleAndTextView.m333125587#333125587#0(0"0(0#0#78"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/TitleAndTextView.m8603808992#2109"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-generated-files.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-own-target-headers.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-all-target-headers.hmap -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-project-headers.hmap -F/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/include -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources/i386 -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources -include /var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch -c /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/TitleAndTextView.m -o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/TitleAndTextView.o0#
+
+CCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/UIViewExtention.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/UIViewExtention.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333125587.690065
+e333125587.780361
+r1
+xCompileC
+xbuild/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/UIViewExtention.o
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/UIViewExtention.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/UIViewExtention.m333125587#333125587#0(0"0(0#0#77"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/UIViewExtention.m8602455360#2107"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-generated-files.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-own-target-headers.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-all-target-headers.hmap -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-project-headers.hmap -F/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/include -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources/i386 -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources -include /var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch -c /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/UIViewExtention.m -o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/UIViewExtention.o0#
+
+CCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/WallViewController.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/WallViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333125588.197249
+e333125588.344145
+r1
+xCompileC
+xbuild/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/WallViewController.o
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/WallViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/WallViewController.m333125588#333125588#0(0"0(0#0#80"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/WallViewController.m8607465664#2113"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-generated-files.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-own-target-headers.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-all-target-headers.hmap -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-project-headers.hmap -F/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/include -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources/i386 -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources -include /var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch -c /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/WallViewController.m -o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/WallViewController.o0#
+
+CCompileC build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/main.o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s333125587.588046
+e333125587.643320
+r1
+xCompileC
+xbuild/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/main.o
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/main.m333125587#333125587#0(0"0(0#0#58"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/main.m8607524192#2077"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-generated-files.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-own-target-headers.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-all-target-headers.hmap -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-project-headers.hmap -F/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/include -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources/i386 -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources -include /var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch -c /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/main.m -o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/MainWindow.xib
+s333125586.665017
+e333125586.995147
+r1
+xCompileXIB
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib333125586#333125586#0(0"0(0#0#66"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/MainWindow.xib8606902944#610"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/MainWindow.nib /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/FlipView.app/License Classes/License
+s333115699.475713
+e333115699.512722
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FlipView.app/License
+xClasses/License
+lSLF07#2@20"Copy Classes/License333115699#333115699#0(0"0(0#0#67"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/License8602475680#513"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/Classes/License /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app0#
+
+CCpResource build/Debug-iphonesimulator/FlipView.app/close-popup.png close-popup.png
+s333125586.669540
+e333125586.677686
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FlipView.app/close-popup.png
+xclose-popup.png
+lSLF07#2@20"Copy close-popup.png333125586#333125586#0(0"0(0#0#67"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/close-popup.png8607574720#513"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/close-popup.png /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app0#
+
+CCpResource build/Debug-iphonesimulator/FlipView.app/flip-illusion-oriented.jpg flip-illusion-oriented.jpg
+s333125586.665788
+e333125586.671680
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FlipView.app/flip-illusion-oriented.jpg
+xflip-illusion-oriented.jpg
+lSLF07#2@31"Copy flip-illusion-oriented.jpg333125586#333125586#0(0"0(0#0#78"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/flip-illusion-oriented.jpg8605776288#524"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/flip-illusion-oriented.jpg /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app0#
+
+CCpResource build/Debug-iphonesimulator/FlipView.app/flip-illusion.png flip-illusion.png
+s333125586.666845
+e333125586.673793
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FlipView.app/flip-illusion.png
+xflip-illusion.png
+lSLF07#2@22"Copy flip-illusion.png333125586#333125586#0(0"0(0#0#69"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/flip-illusion.png8609377728#515"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/flip-illusion.png /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app0#
+
+CCpResource build/Debug-iphonesimulator/FlipView.app/missing-people.png missing-people.png
+s333125586.668856
+e333125586.677466
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FlipView.app/missing-people.png
+xmissing-people.png
+lSLF07#2@23"Copy missing-people.png333125586#333125586#0(0"0(0#0#70"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/missing-people.png8607760128#516"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/missing-people.png /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app0#
+
+CCpResource build/Debug-iphonesimulator/FlipView.app/selected-page.png selected-page.png
+s333125586.668199
+e333125586.677044
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FlipView.app/selected-page.png
+xselected-page.png
+lSLF07#2@22"Copy selected-page.png333125586#333125586#0(0"0(0#0#69"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/selected-page.png8608913408#515"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/selected-page.png /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app0#
+
+CCpResource build/Debug-iphonesimulator/FlipView.app/unselected-page.png unselected-page.png
+s333125586.667527
+e333125586.675022
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FlipView.app/unselected-page.png
+xunselected-page.png
+lSLF07#2@24"Copy unselected-page.png333125586#333125586#0(0"0(0#0#71"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/unselected-page.png8609077824#517"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/unselected-page.png /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app0#
+
+CGenerateDSYMFile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app.dSYM /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/FlipView
+s333125588.377504
+e333125588.414143
+r1
+xGenerateDSYMFile
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app.dSYM
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/FlipView
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/FlipView.app.dSYM build/Debug-iphonesimulator/FlipView.app/FlipView333125588#333125588#0(0"0(0#0#101"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/FlipView8601966400#425"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/FlipView -o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app.dSYM0#
+
+CLd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/FlipView normal i386
+s333125588.344232
+e333125588.377409
+r1
+xLd
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/FlipView
+xnormal
+xi386
+lSLF07#2@106"Link /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/FlipView333125588#333125588#0(0"0(0#0#0"8604335872#992"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator -F/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator -filelist /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/Objects-normal/i386/FlipView.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/FlipView0#
+
+CProcessInfoPlistFile /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/Info.plist FlipView-Info.plist
+s333125586.656215
+e333125586.664900
+r1
+xProcessInfoPlistFile
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/Info.plist
+xFlipView-Info.plist
+lSLF07#2@27"Process FlipView-Info.plist333125586#333125586#0(0"0(0#0#71"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/FlipView-Info.plist30962560973865072#521"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FlipView-Info.plist -genpkginfo /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app/Info.plist0#
+
+CProcessPCH /var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch.gch FlipView_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s333125586.995259
+e333125587.587945
+r1
+xProcessPCH
+x/var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch.gch
+xFlipView_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile FlipView_Prefix.pch333125586#333125587#0(0"0(0#0#71"/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/FlipView_Prefix.pch8099295633211224064#1955"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-generated-files.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-own-target-headers.hmap -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-all-target-headers.hmap -iquote /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/FlipView-project-headers.hmap -F/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/include -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources/i386 -I/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/FlipView.build/Debug-iphonesimulator/FlipView.build/DerivedSources -c /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/FlipView_Prefix.pch -o /var/folders/Tr/TrmkVZVhET41V1g5BPbQ9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FlipView_Prefix-auaqmlwzfphmgnekyerygnzbhden/FlipView_Prefix.pch.gch0#
+
+CTouch /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app
+s333125588.414223
+e333125588.416552
+r1
+xTouch
+x/Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app
+lSLF07#2@98"Touch /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app333125588#333125588#0(0"0(0#0#0"8601869728#305"    cd /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Apple/Desktop/REEFAQ/PROJECT/GITHUB/FlipView/build/Debug-iphonesimulator/FlipView.app0#
+
