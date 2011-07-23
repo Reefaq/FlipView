@@ -30,8 +30,8 @@
 		1873AC4813D1743A001A999B /* Layout2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1873AC3E13D1743A001A999B /* Layout2.m */; };
 		1873AC4913D1743A001A999B /* Layout1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1873AC4013D1743A001A999B /* Layout1.m */; };
 		1873AC5913D17550001A999B /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1873AC5813D17550001A999B /* MessageModel.m */; };
-		187BB7E013D479C300F315C2 /* License in Resources */ = {isa = PBXBuildFile; fileRef = 187BB7DF13D479C300F315C2 /* License */; };
 		18D45F7B13D4365000BB814D /* close-popup.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D45F7A13D4365000BB814D /* close-popup.png */; };
+		18FD403713DB18460080C465 /* License in Resources */ = {isa = PBXBuildFile; fileRef = 18FD403613DB18460080C465 /* License */; };
 		1D3623260D0F684500981E51 /* FlipViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FlipViewAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -82,8 +82,8 @@
 		1873AC4013D1743A001A999B /* Layout1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Layout1.m; sourceTree = "<group>"; };
 		1873AC5713D17550001A999B /* MessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageModel.h; sourceTree = "<group>"; };
 		1873AC5813D17550001A999B /* MessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageModel.m; sourceTree = "<group>"; };
-		187BB7DF13D479C300F315C2 /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
 		18D45F7A13D4365000BB814D /* close-popup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close-popup.png"; sourceTree = "<group>"; };
+		18FD403613DB18460080C465 /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* FlipViewAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipViewAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* FlipViewAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipViewAppDelegate.m; sourceTree = "<group>"; };
@@ -114,7 +114,6 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				187BB7DA13D479B700F315C2 /* License */,
 				1873AC5613D1753F001A999B /* Model */,
 				1873AB7013D1723E001A999B /* Helper */,
 				1873AB0113D16F96001A999B /* AFKPageFlipper */,
@@ -204,14 +203,6 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
-		187BB7DA13D479B700F315C2 /* License */ = {
-			isa = PBXGroup;
-			children = (
-				187BB7DF13D479C300F315C2 /* License */,
-			);
-			name = License;
-			sourceTree = "<group>";
-		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +214,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				18FD403613DB18460080C465 /* License */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -323,7 +315,7 @@
 				1873AC0E13D173AC001A999B /* selected-page.png in Resources */,
 				180E01AC13D1B201005DF14C /* missing-people.png in Resources */,
 				18D45F7B13D4365000BB814D /* close-popup.png in Resources */,
-				187BB7E013D479C300F315C2 /* License in Resources */,
+				18FD403713DB18460080C465 /* License in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

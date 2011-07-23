@@ -6,7 +6,7 @@
 //  Copyright 2010 AFK Studio Partnership. All rights reserved.
 //
 //  Modified by Reefaq Mohammed on 16/07/11.
-//  Copyright 2010 raw eng. All rights reserved.
+ 
 //
 #import "AFKPageFlipper.h"
 
