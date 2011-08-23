@@ -40,10 +40,10 @@
 @synthesize view4;
 
 -(void)initalizeViews:(NSDictionary*)viewCollectionDictonary{
-		view1 = (UIViewExtention*)[viewCollectionDictonary objectForKey:@"view1"];
-		view2 = (UIViewExtention*)[viewCollectionDictonary objectForKey:@"view2"];
-		view3 = (UIViewExtention*)[viewCollectionDictonary objectForKey:@"view3"];		
-		view4 = (UIViewExtention*)[viewCollectionDictonary objectForKey:@"view4"];
+		view1 = [(UIViewExtention*)[viewCollectionDictonary objectForKey:@"view1"] retain];
+		view2 = [(UIViewExtention*)[viewCollectionDictonary objectForKey:@"view2"] retain];
+		view3 = [(UIViewExtention*)[viewCollectionDictonary objectForKey:@"view3"] retain];		
+		view4 = [(UIViewExtention*)[viewCollectionDictonary objectForKey:@"view4"] retain];
 		
 		self.isFullScreen= FALSE;
 		view1.isFullScreen = FALSE;

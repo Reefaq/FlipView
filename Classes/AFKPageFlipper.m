@@ -26,11 +26,14 @@
 
 
 - (UIImage *) imageByRenderingView {
+	CGFloat oldAlpha = self.alpha;
 	
+	self.alpha = 1;
 	UIGraphicsBeginImageContext(self.bounds.size);
 	[self.layer renderInContext:UIGraphicsGetCurrentContext()];
 	UIImage *resultingImage = UIGraphicsGetImageFromCurrentImageContext();
 	UIGraphicsEndImageContext();
+	self.alpha = oldAlpha;
 	
 	return resultingImage;
 }
@@ -42,12 +45,12 @@
 #pragma mark Private interface
 
 
-@interface AFKPageFlipper()
-
-@property (nonatomic,assign) UIView *currentView;
-@property (nonatomic,assign) UIView *newView;
-
-@end
+//@interface AFKPageFlipper()
+//
+//@property (nonatomic,assign) UIView *currentView;
+//@property (nonatomic,assign) UIView *newView;
+//
+//@end
 
 
 @implementation AFKPageFlipper
@@ -56,13 +59,14 @@
 #pragma mark -
 #pragma mark Flip functionality
 
-@synthesize pageDifference,numberOfPages;
+@synthesize pageDifference,numberOfPages,animating;
 
 - (void) initFlip {
 	NSAutoreleasePool* newpool = [[NSAutoreleasePool alloc] init];
 	// Create screenshots of view
 	UIImage *currentImage = [self.currentView imageByRenderingView];
 	UIImage *newImage = [self.newView imageByRenderingView];
+	
 	
 	// Hide existing views
 	[self.currentView setHidden:TRUE];
@@ -361,10 +365,10 @@
 		frontLayer.contentsGravity = kCAGravityRight;
 		
 		CATransform3D transform = CATransform3DMakeRotation(-M_PI / 1.1 , 0.0, 1.0, 0.0);
-		transform.m34 = 1.0f / 2500.0f;
+		transform.m34 = -1.0f / 2500.0f;
 		
 		flipAnimationLayer.transform = transform;
-		transform.m34 = 1.0f / 1500.0f;
+		transform.m34 = -1.0f / 1500.0f;
 		
 		if (pageDifference > 1) {
 			//start forlayer left
@@ -393,7 +397,7 @@
 			blankFrontLayerForLayerRight.contentsGravity = kCAGravityLeft;
 			
 			CATransform3D transformblank = CATransform3DMakeRotation(-M_PI / 1.1, 0.0, 1.0, 0.0);
-			transformblank.m34 = 1.0f / 2500.0f;
+			transformblank.m34 = -1.0f / 2500.0f;
 			
 			blankFlipAnimationLayerOnLeft1.transform = transformblank;
 			blankFlipAnimationLayerOnRight1.transform = transformblank;
@@ -429,7 +433,7 @@
 			blankFrontLayerForLayerRight.contentsGravity = kCAGravityLeft;
 			
 			CATransform3D transformblank = CATransform3DMakeRotation(-M_PI / 1.1, 0.0, 1.0, 0.0);
-			transformblank.m34 = 1.0f / 2500.0f;
+			transformblank.m34 = -1.0f / 2500.0f;
 			
 			blankFlipAnimationLayerOnLeft1.transform = transformblank;
 			blankFlipAnimationLayerOnRight1.transform = transformblank;
@@ -462,7 +466,7 @@
 			blankFrontLayerForLayerRight2.contentsGravity = kCAGravityLeft;
 			
 			CATransform3D transformblank2 = CATransform3DMakeRotation(-M_PI / 1.1, 0.0, 1.0, 0.0);
-			transformblank2.m34 = 1.0f / 2500.0f;
+			transformblank2.m34 = -1.0f / 2500.0f;
 			
 			blankFlipAnimationLayerOnLeft2.transform = transformblank2;
 			blankFlipAnimationLayerOnRight2.transform = transformblank2;
@@ -473,7 +477,6 @@
 		currentAngle = startFlipAngle = -M_PI ;
 		endFlipAngle = 0;
 	}
-	
 	[newpool release];
 }
 
@@ -541,15 +544,13 @@
 	
 	[UIView beginAnimations:nil context:nil];
 	[UIView setAnimationDuration:duration];
-		blankFlipAnimationLayerOnLeft2.transform = endTransform;
-		blankFlipAnimationLayerOnRight2.transform = endTransform;
+	blankFlipAnimationLayerOnLeft2.transform = endTransform;
+	blankFlipAnimationLayerOnRight2.transform = endTransform;
 	[UIView commitAnimations];
 	
 	if (setDelegate) {
 		[self performSelector:@selector(cleanupFlip) withObject:Nil afterDelay:duration];
 	}
-	
-	
 }
 
 - (void) setFlipProgress2:(NSDictionary*)dict{
@@ -575,10 +576,10 @@
 	
 	[UIView beginAnimations:nil context:nil];
 	[UIView setAnimationDuration:duration];
-		blankFlipAnimationLayerOnLeft1.transform = endTransform;	
-		blankFlipAnimationLayerOnRight1.transform = endTransform;
+	blankFlipAnimationLayerOnLeft1.transform = endTransform;	
+	blankFlipAnimationLayerOnRight1.transform = endTransform;
 	[UIView commitAnimations];
-
+	
 	
 	if (pageDifference > 2) {
 		
@@ -603,7 +604,7 @@
 	
 	float newAngle = startFlipAngle + progress * (endFlipAngle - startFlipAngle);
 	float duration = animate ? 0.5 * fabs((newAngle - currentAngle) / (endFlipAngle - startFlipAngle)) : 0;
-		
+	
 	currentAngle = newAngle;
 	
 	CATransform3D endTransform = CATransform3DIdentity;
@@ -618,7 +619,7 @@
 	
 	[UIView beginAnimations:@"FLIP1" context:nil];
 	[UIView setAnimationDuration:duration];
-		flipAnimationLayer.transform =  endTransform;
+	flipAnimationLayer.transform =  endTransform;
 	[UIView commitAnimations];
 	
 	if (pageDifference > 1) {
@@ -651,7 +652,7 @@
 
 
 - (void)animationDidStop:(NSString *) animationID finished:(NSNumber *) finished context:(void *) context {
-		[self cleanupFlip];
+	[self cleanupFlip];
 }
 
 
@@ -697,7 +698,7 @@
 	self.newView = [self.dataSource viewForPage:value inFlipper:self];
 	
 	[self addSubview:self.newView];
-
+	
 	return TRUE;
 }	
 
@@ -707,14 +708,14 @@
 	}
 	
 	setNewViewOnCompletion = YES;
-	animating = YES;
+	animating = NO;
 	
 	[self.newView setHidden:TRUE];
 	self.newView.alpha = 0;
 	
-
+	
 	[UIView beginAnimations:@"" context:Nil];
-	[UIView setAnimationDuration:0.5];
+	[UIView setAnimationDuration:0.1];
 	[UIView setAnimationDelegate:self];
 	[UIView setAnimationDidStopSelector:@selector(animationDidStop:finished:context:)];
 	
@@ -722,12 +723,13 @@
 	self.newView.alpha = 1;
 	
 	[UIView commitAnimations];
-
-
+	
+	
 } 
 
 
 - (void) setCurrentPage:(NSInteger) value animated:(BOOL) animated {
+	
 	
 	pageDifference = fabs(value - currentPage);
 	
@@ -739,8 +741,9 @@
 	animating = YES;
 	
 	if (animated) {
+		[self setDisabled:TRUE];
 		[self initFlip];
-		[self setFlipProgress:0.01 setDelegate:NO animate:NO];
+		//[self setFlipProgress:0.01 setDelegate:NO animate:NO];
 		
 		if (pageDifference > 1) {
 			NSMutableDictionary* dictionary = [[NSMutableDictionary alloc] init];
@@ -770,6 +773,7 @@
 
 
 - (void) setDataSource:(NSObject <AFKPageFlipperDataSource>*) value {
+	
 	if (dataSource) {
 		[dataSource release];
 	}
@@ -792,7 +796,6 @@
 		recognizer.enabled = !value;
 	}
 }
-
 
 #pragma mark -
 #pragma mark Touch management
@@ -912,14 +915,14 @@
 
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
-		UIPanGestureRecognizer *panRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panned:)];
+		UIPanGestureRecognizer *panRecognizer = [[[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panned:)] autorelease];
 		[panRecognizer setMaximumNumberOfTouches:1];
 		[self addGestureRecognizer:panRecognizer];
-		[panRecognizer release];
 		
-		flipIllusionPortrait = [UIImage imageNamed:@"flip-illusion-oriented.jpg"];
-		flipIllusionLandscape = [UIImage imageNamed:@"flip-illusion.png"];
+		flipIllusionPortrait = [[UIImage imageNamed:@"flip-illusion-oriented.jpg"] retain];
+		flipIllusionLandscape = [[UIImage imageNamed:@"flip-illusion.png"] retain];
 		
+		animating = FALSE;
     }
     return self;
 }
