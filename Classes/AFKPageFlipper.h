@@ -34,7 +34,7 @@ typedef enum {
 	NSObject <AFKPageFlipperDataSource> *dataSource;
 	NSInteger currentPage;
 	NSInteger numberOfPages;
-
+	
 	NSInteger pageDifference;
 	
 	UIView *currentView;
@@ -44,7 +44,7 @@ typedef enum {
 	CALayer *flipAnimationLayer;
 	CALayer *blankFlipAnimationLayerOnLeft1;
 	CALayer *blankFlipAnimationLayerOnRight1;
-
+	
 	CALayer *blankFlipAnimationLayerOnLeft2;
 	CALayer *blankFlipAnimationLayerOnRight2;	
 	
@@ -60,7 +60,7 @@ typedef enum {
 	
 	UIImage *flipIllusionPortrait;
 	UIImage *flipIllusionLandscape;
-
+	
 }
 
 @property (nonatomic,retain) NSObject <AFKPageFlipperDataSource> *dataSource;
@@ -68,6 +68,10 @@ typedef enum {
 @property (nonatomic,assign) NSInteger numberOfPages;
 @property (nonatomic,assign) NSInteger pageDifference;
 @property (nonatomic,assign) BOOL disabled;
+@property (nonatomic,assign) UIView *currentView;
+@property (nonatomic,assign) UIView *newView;
+@property (nonatomic,readonly) BOOL animating;
+
 
 - (void) setCurrentPage:(NSInteger) value animated:(BOOL) animated;
 

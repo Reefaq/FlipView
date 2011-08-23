@@ -42,6 +42,7 @@
 	UIView* fullScreenBGView;
 	NSString* wallTitle;
 	BOOL isInFullScreenMode;
+	NSMutableArray* messageArrayCollection;
 }
 
 -(void)showViewInFullScreen:(UIViewExtention*)viewToShow withModel:(MessageModel*)model;

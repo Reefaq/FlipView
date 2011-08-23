@@ -37,7 +37,7 @@
 @synthesize view1;
 
 -(void)initalizeViews:(NSDictionary*)viewCollectionDictonary{
-		view1 = (UIViewExtention*)[viewCollectionDictonary objectForKey:@"view1"];
+		view1 = [(UIViewExtention*)[viewCollectionDictonary objectForKey:@"view1"] retain];
 		
 		self.isFullScreen= FALSE;
 		view1.isFullScreen = FALSE;
