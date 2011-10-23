@@ -40,6 +40,13 @@ typedef enum {
 	UIView *currentView;
 	UIView *newView;
 	
+	// shadows
+	CALayer *frontLayerShadow;
+	CALayer *backLayerShadow;
+	CALayer *leftLayerShadow;
+	CALayer *rightLayerShadow;
+	// shadows
+  
 	CALayer *backgroundAnimationLayer;
 	CALayer *flipAnimationLayer;
 	CALayer *blankFlipAnimationLayerOnLeft1;
