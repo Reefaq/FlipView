@@ -217,6 +217,43 @@
 	frontLayer.transform = CATransform3DMakeRotation(M_PI, 0, 1.0, 0);
 	[flipAnimationLayer addSublayer:frontLayer];
 	
+
+	// shadows
+	frontLayerShadow = [CALayer layer];
+	frontLayerShadow.frame = frontLayer.bounds;
+	frontLayerShadow.doubleSided = NO;
+	frontLayerShadow.masksToBounds = YES;
+	frontLayerShadow.opacity = 0;
+	frontLayerShadow.backgroundColor = [UIColor blackColor].CGColor;
+	[frontLayer addSublayer:frontLayerShadow];
+
+	backLayerShadow = [CALayer layer];
+	backLayerShadow.frame = backLayer.bounds;
+	backLayerShadow.doubleSided = NO;
+	backLayerShadow.masksToBounds = YES;
+	backLayerShadow.opacity = 0;
+	backLayerShadow.backgroundColor = [UIColor blackColor].CGColor;
+	[backLayer addSublayer:backLayerShadow];
+	
+	
+	leftLayerShadow = [CALayer layer];
+	leftLayerShadow.frame = leftLayer.bounds;
+	leftLayerShadow.doubleSided = NO;
+	leftLayerShadow.masksToBounds = YES;
+	leftLayerShadow.opacity = 0.0;
+	leftLayerShadow.backgroundColor = [UIColor blackColor].CGColor;
+	[leftLayer addSublayer:leftLayerShadow];
+	
+	rightLayerShadow = [CALayer layer];
+	rightLayerShadow.frame = rightLayer.bounds;
+	rightLayerShadow.doubleSided = NO;
+	rightLayerShadow.masksToBounds = YES;
+	rightLayerShadow.opacity = 0.0;
+	rightLayerShadow.backgroundColor = [UIColor blackColor].CGColor;
+	[rightLayer addSublayer:rightLayerShadow];
+	// shadows
+
+	
 	UIInterfaceOrientation orient = [UIApplication sharedApplication].statusBarOrientation;
 	
 	UIImage* flipImage;
@@ -613,6 +650,11 @@
 	
 	[flipAnimationLayer removeAllAnimations];
 	
+	// shadows
+	CGFloat newShadowOpacity = progress;
+	if (endFlipAngle > startFlipAngle) newShadowOpacity = 1.0 - progress;
+	// shadows
+
 	if (duration < 0.35) {
 		duration = 0.35;
 	}
@@ -620,6 +662,13 @@
 	[UIView beginAnimations:@"FLIP1" context:nil];
 	[UIView setAnimationDuration:duration];
 	flipAnimationLayer.transform =  endTransform;
+	
+	// shadows
+	frontLayerShadow.opacity = 1.0 - newShadowOpacity;
+	backLayerShadow.opacity = newShadowOpacity;
+	leftLayerShadow.opacity = 0.5 - newShadowOpacity;
+	rightLayerShadow.opacity = newShadowOpacity - 0.5;
+	// shadows
 	[UIView commitAnimations];
 	
 	if (pageDifference > 1) {
