@@ -50,7 +50,7 @@
     // Override point for customization after app launch. 
 	viewController = [[WallViewController alloc] initWithNibName:nil bundle:nil];
 	
-    [self.window addSubview:viewController.view];
+    [self.window setRootViewController:viewController];
     [self.window makeKeyAndVisible];
 
 	return YES;

@@ -76,7 +76,11 @@
 		
 		[self buildPages:messageArrayCollection];
 		
-		flipper = [[AFKPageFlipper alloc] initWithFrame:self.view.bounds];
+        if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")) {
+            flipper = [[AFKPageFlipper alloc] initWithFrame:CGRectMake(0, 20, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds))];
+        }else {
+            flipper = [[AFKPageFlipper alloc] initWithFrame:self.view.bounds];
+        }
 		flipper.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
 		flipper.dataSource = self;
 		[self.view addSubview:flipper];
@@ -120,8 +124,6 @@
 
 #pragma mark -
 #pragma mark Data source implementation
-
-
 
 - (NSInteger) numberOfPagesForPageFlipper:(AFKPageFlipper *)pageFlipper {
 	return [viewControlerStack count];
@@ -364,16 +366,6 @@
 	}
 	
 	return YES;
-}
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-}
-
-
-- (void)viewDidUnload {
-    [super viewDidUnload];
 }
 
 
